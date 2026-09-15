@@ -11,6 +11,8 @@ class Fun(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+    # Roll command : 
+    
     @app_commands.command(name="roll", description="Rolls dice (e.g., 1d6, 2d20).")
     async def roll(self, interaction: discord.Interaction, dice: str = "1d6"):
         try:
@@ -25,6 +27,8 @@ class Fun(commands.Cog):
         total = sum(results)
         await interaction.response.send_message(f" **Result:** {results} (Total: **{total}**)")
 
+    # 8ball command : 
+    
     @app_commands.command(name="8ball", description="Ask the magic 8-ball a question.")
     async def eight_ball(self, interaction: discord.Interaction, question: str):
         responses = [
