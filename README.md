@@ -7,7 +7,7 @@ A modular, production-ready Discord bot built with Python.
 ## Modules Included
 
 * `moderation`: `kick`, `ban`, `clear`
-* `utility`: `ping`, `serverinfo`, `userinfo`
+* `utility`: `ping`, `serverinfo`, `userinfo`, `avatar`
 * `fun`: `roll`, `8ball`
 * `music`: `play`, `stop`, `join`, `leave`
 
