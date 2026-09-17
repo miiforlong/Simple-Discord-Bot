@@ -74,8 +74,8 @@ pip install -r requirements.txt
 
 1. Create a `.env` file in the root directory:
 ```env
-DISCORD_TOKEN=PutYourDiscordBotTokenHere
-
+# Enter your Discord token here instead of "12345" :
+DISCORD_TOKEN=12345
 ```
 
 
